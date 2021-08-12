@@ -5,6 +5,7 @@ mysql:
   environment:
     - MYSQL_ROOT_PASSWORD=
     - MYSQL_ALLOW_EMPTY_PASSWORD=equal
+    - MYSQL_ALLOW_EMPTY_PASSWORD=True
     - MYSQL_USER=master
     - MYSQL_PASSWORD=petclinic
     - MYSQL_DATABASE=petclinic
